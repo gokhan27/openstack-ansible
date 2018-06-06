@@ -210,3 +210,7 @@
   scm: git
   src: https://github.com/gokhan27/openstack-ansible-os_redis.git
   version: master
+- name: os_safirnotification
+  scm: git
+  src: https://github.com/b3lab/openstack-ansible-b3lab_safirnotification.git
+  version: stable/pike
