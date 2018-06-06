@@ -21,6 +21,7 @@
 - include: os-neutron-install.yml
 - include: os-heat-install.yml
 - include: os-horizon-install.yml
+- include: os-redis-install.yml
 - include: os-ceilometer-install.yml
 - include: os-aodh-install.yml
 - include: os-designate-install.yml
@@ -37,6 +38,7 @@
 - include: os-magnum-install.yml
 - include: os-trove-install.yml
 - include: os-sahara-install.yml
+- include: os-cloudkitty-install.yml
 - include: os-molteniron-install.yml
 - include: os-octavia-install.yml
 - include: os-tempest-install.yml

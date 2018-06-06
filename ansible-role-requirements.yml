@@ -88,8 +88,8 @@
   version: e28dd67860037003e08ec3e5c6bbc54b73db230c
 - name: os_horizon
   scm: git
-  src: https://git.openstack.org/openstack/openstack-ansible-os_horizon
-  version: be1ec6791e72f63b0c7890a192b47641b890b981
+  src: https://github.com/b3lab/openstack-ansible-os_horizon
+  version: safir/pike
 - name: os_ironic
   scm: git
   src: https://git.openstack.org/openstack/openstack-ansible-os_ironic
@@ -202,3 +202,11 @@
   scm: git
   src: https://github.com/ceph/ansible-ceph-osd
   version: v3.0.9
+- name: os_cloudkitty
+  scm: git
+  src: https://github.com/b3lab/openstack-ansible-os_cloudkitty.git
+  version: stable/pike
+- name: os_redis
+  scm: git
+  src: https://github.com/gokhan27/openstack-ansible-os_redis.git
+  version: master

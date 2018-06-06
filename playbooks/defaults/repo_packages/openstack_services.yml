@@ -88,10 +88,6 @@ heat_git_install_branch: 4dca7dcc5085cbd4c94103500f2846a27fa7d8fa # HEAD of "sta
 heat_git_project_group: heat_all
 
 
-## Horizon service
-horizon_git_repo: https://git.openstack.org/openstack/horizon
-horizon_git_install_branch: 5c15fb85d9df302004f72049cefa975c57c16708 # HEAD of "stable/pike" as of 28.04.2018
-horizon_git_project_group: horizon_all
 
 ## Horizon Ironic dashboard plugin
 ironic_dashboard_git_repo: https://git.openstack.org/openstack/ironic-ui
@@ -99,9 +95,14 @@ ironic_dashboard_git_install_branch: 783a3283100d0256e45db4f33a913556416a5bc6 # 
 ironic_dashboard_git_project_group: horizon_all
 
 ## Horizon Magnum dashboard plugin
-magnum_dashboard_git_repo: https://git.openstack.org/openstack/magnum-ui
-magnum_dashboard_git_install_branch: 7d6f02e606064395689dd5ea7430cdae4a6c1fd8 # HEAD of "stable/pike" as of 28.04.2018
+magnum_dashboard_git_repo: https://github.com/b3lab/magnum-ui
+magnum_dashboard_git_install_branch: stable/pike
 magnum_dashboard_git_project_group: horizon_all
+
+## Horizon Safir Monitor dashboard plugin
+safir_monitor_dashboard_git_repo: https://github.com/b3lab/safir_monitor_dashboard.git
+safir_monitor_dashboard_git_install_branch: stable/pike
+safir_monitor_dashboard_git_project_group: horizon_all
 
 ## Horizon LBaaS dashboard plugin
 neutron_lbaas_dashboard_git_repo: https://git.openstack.org/openstack/neutron-lbaas-dashboard
@@ -109,8 +110,8 @@ neutron_lbaas_dashboard_git_install_branch: 98c7d38419405613662e16326cff7339d105
 neutron_lbaas_dashboard_git_project_group: horizon_all
 
 ## Horizon Sahara dashboard plugin
-sahara_dashboard_git_repo: https://git.openstack.org/openstack/sahara-dashboard
-sahara_dashboard_git_install_branch: 998fa6e34ed7584657e4c544832cd04c94206af0 # HEAD of "stable/pike" as of 28.04.2018
+sahara_dashboard_git_repo: https://github.com/b3lab/sahara-dashboard
+sahara_dashboard_git_install_branch: stable/pike
 sahara_dashboard_git_project_group: horizon_all
 
 
@@ -187,8 +188,8 @@ ironic_git_install_branch: 4ca48b4f60d51e1b0ba8546fd1499270a7ceab09 # HEAD of "s
 ironic_git_project_group: ironic_all
 
 ## Magnum service
-magnum_git_repo: https://git.openstack.org/openstack/magnum
-magnum_git_install_branch: b6f49ca72e0dbab686ad3af9519aa826c2a6acf6 # HEAD of "stable/pike" as of 28.04.2018
+magnum_git_repo: https://github.com/b3lab/magnum
+magnum_git_install_branch: safir/pike
 magnum_git_project_group: magnum_all
 
 ## Trove service
@@ -210,3 +211,18 @@ octavia_git_project_group: octavia_all
 molteniron_git_repo: https://git.openstack.org/openstack/molteniron
 molteniron_git_install_branch: 094276cda77d814d07ad885e7d63de8d1243750a # HEAD of "master" as of 28.04.2018
 molteniron_git_project_group: molteniron_all
+
+##Cloudkitty service
+cloudkitty_git_repo: https://github.com/gokhan27/cloudkitty.git
+cloudkitty_git_install_branch: stable/pike
+cloudkitty_git_project_group: cloudkitty_all
+
+## Horizon service
+horizon_git_repo: http://gokhan.isik:gokhan.isik@bitbucket.b3lab.org/scm/ba/horizon.git
+horizon_git_install_branch: safir/pike
+horizon_git_project_group: horizon_all
+
+#safirnotification service
+safirnotification_git_repo: https://github.com/b3lab/safir_notification_service.git
+safirnotification_git_install_branch: stable/pike
+safirnotification_git_project_group: horizon_all
