@@ -217,10 +217,6 @@ cloudkitty_git_repo: https://github.com/gokhan27/cloudkitty.git
 cloudkitty_git_install_branch: stable/pike
 cloudkitty_git_project_group: cloudkitty_all
 
-## Horizon service
-horizon_git_repo: http://gokhan.isik:gokhan.isik@bitbucket.b3lab.org/scm/ba/horizon.git
-horizon_git_install_branch: safir/pike
-horizon_git_project_group: horizon_all
 
 #safirnotification service
 safirnotification_git_repo: https://github.com/b3lab/safir_notification_service.git
