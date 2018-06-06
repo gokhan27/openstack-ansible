@@ -208,5 +208,5 @@
   version: stable/pike
 - name: os_redis
   scm: git
-  src: https://github.com/b3lab/ansible-role-redis.git
+  src: https://github.com/gokhan27/openstack-ansible-os_redis.git
   version: master
